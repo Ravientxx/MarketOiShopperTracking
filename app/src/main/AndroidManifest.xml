@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dsv.shopertracking" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dsv.shopertracking.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OrderListActivity"
+            android:label="OrderListActivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dsv.shopertracking.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CheckPointActivity"
+            android:label="@string/title_activity_check_point"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dsv.shopertracking.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SetTrackingActivity"
+            android:label="@string/title_activity_set_tracking"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dsv.shopertracking.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GPSTracking"
+            android:label="@string/title_activity_gpstracking"
+            android:parentActivityName=".SetTrackingActivity"
+            android:theme="@android:style/Theme.NoDisplay">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dsv.shopertracking.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OrderDetailActivity"
+            android:label="@string/title_activity_order_detail"
+            android:parentActivityName=".CheckPointActivity" >
+        </activity>
+        <activity
+            android:name=".OrderItemDetailActivity"
+            android:parentActivityName=".OrderDetailActivity" >
+        </activity>
+
+    </application>
+
+</manifest>

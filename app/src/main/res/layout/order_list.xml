@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fffffda8"
+    android:id="@+id/bv">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MarketOI"
+        android:id="@+id/titleMenu"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reload"
+        android:id="@+id/reload_btn" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF00FF00"
+        android:id="@+id/line" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:id="@+id/switch1"
+        android:layout_gravity="right"
+        android:checked="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="On going order"
+        android:id="@+id/textView4" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/listView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.53" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="History"
+        android:id="@+id/textView" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:id="@+id/listView_new"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+
+</LinearLayout>

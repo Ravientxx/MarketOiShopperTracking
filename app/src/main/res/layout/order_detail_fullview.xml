@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:id="@+id/itemImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemImage"
+        android:id="@+id/Name"
+        android:text="Name:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Name"
+        android:layout_toRightOf="@+id/Name"
+        android:id="@+id/txtName"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Chain"
+        android:text="Chain:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/Chain"
+        android:layout_toRightOf="@+id/Chain"
+        android:id="@+id/txtChain"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChain"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Container"
+        android:text="Container:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/Container"
+        android:layout_toRightOf="@+id/Container"
+        android:id="@+id/txtContainer"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContainer"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Quantity"
+        android:text="Quantity:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/Quantity"
+        android:layout_toRightOf="@+id/Quantity"
+        android:id="@+id/txtQuantity"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQuantity"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Amount"
+        android:text="Amount:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/Amount"
+        android:layout_toRightOf="@+id/Amount"
+        android:id="@+id/txtAmount"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAmount"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Price"
+        android:text="Price:"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/Price"
+        android:layout_toRightOf="@+id/Price"
+        android:id="@+id/txtPrice"/>
+
+</RelativeLayout>

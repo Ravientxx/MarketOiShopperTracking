@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/order_detail_view_background">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/image"
+        android:background="#000"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@+id/view1"
+        android:layout_marginTop="35dp"
+        android:background="#000"
+        />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/view1"
+        android:layout_marginLeft="120dp"
+        android:background="#000"/>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/view3"
+        android:layout_marginLeft="120dp"
+        android:background="#000"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewName"
+        android:layout_alignParentTop="true"
+        android:text="Fresh filet beef from Australia"
+        android:layout_toRightOf="@+id/view1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewBrand"
+        android:layout_below="@+id/view2"
+        android:text="EcoMil"
+        android:layout_toRightOf="@+id/view1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewChain"
+        android:layout_alignParentTop="true"
+        android:text="Organica Farm"
+        android:layout_toRightOf="@+id/view3"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewPrice"
+        android:layout_below="@+id/view2"
+        android:text="160000 vnd"
+        android:layout_toRightOf="@+id/view3"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewQty"
+        android:layout_alignParentTop="true"
+        android:text="x5"
+        android:layout_toRightOf="@+id/view4"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:id="@+id/textViewAmount"
+        android:layout_below="@+id/view2"
+        android:text="500gr"
+        android:layout_toRightOf="@+id/view4"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>

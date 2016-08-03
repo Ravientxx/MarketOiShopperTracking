@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShoperTracking</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_order_list">OrderList</string>
+    <string name="title_activity_check_point">CheckPointActivity</string>
+    <string name="title_activity_set_tracking">SetTrackingActivity</string>
+    <string name="title_activity_gpstracking">GPSTracking</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+</resources>

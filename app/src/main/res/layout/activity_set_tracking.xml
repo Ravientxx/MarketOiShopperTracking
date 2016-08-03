@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fffffda8">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Back"
+        android:id="@+id/backBtn"
+        android:background="@drawable/blue_button"
+        style="@style/back_button"
+        android:layout_alignBottom="@+id/titleMenu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Checkpoints"
+        android:id="@+id/titleMenu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#ffff7c4f"
+        android:layout_below="@+id/titleMenu"
+        android:layout_alignParentStart="true"
+        android:id="@+id/line" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:gravity="end">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="started"
+            android:id="@+id/statusOrder"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/line"
+            android:layout_alignEnd="@+id/line"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="right" />
+
+        <View android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="@drawable/circle_online"
+            android:id="@+id/circle"
+            android:layout_marginEnd="7dp"
+            android:layout_alignTop="@+id/statusOrder"
+            android:layout_toStartOf="@+id/statusOrder"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_weight="0.23"
+        android:id="@+id/abc">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Acknowledge" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:text="OK"
+        android:background="@drawable/green_button"
+        style="@style/track_button"
+        android:id="@+id/acknowledge_btn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/dateAck" />
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_weight="0.16">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Start run"
+            android:id="@+id/textView3"
+           />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_height="34dp"
+                android:layout_width="wrap_content"
+                android:text="OK"
+                android:id="@+id/startRun"
+                android:background="@drawable/green_button"
+                style="@style/track_button" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/dateStart" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_weight="0.15">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Shopped"
+            android:id="@+id/shopped" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="Check"
+            android:id="@+id/shopped_btn"
+            android:background="@drawable/green_button"
+            style="@style/track_button" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/dateShoped" /></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Customer Deliver"
+            android:id="@+id/delivered" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/track_button"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="Check"
+                android:id="@+id/delivered_btn"
+                android:background="@drawable/green_button" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/dateDeliver" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
