@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="E:\Git\MarketOiShopperTracking\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.0_70e5794be5ac552f8d70d5eb5fa2aad97bf624f9.jar" />
+    </item>
+    <item
+        jar="E:\Git\MarketOiShopperTracking\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library\1.0.19\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73e061a8655216be05a577bea062138def6a4232">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\com.mcxiaoke.volley-library-1.0.19_c38f55e07f61478a16bccc5093695d6ba601646d.jar" />
+    </item>
+    <item
+        jar="E:\Git\MarketOiShopperTracking\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.0_079c56ca81387e8d0bf07913b5d37dc6dbfe8f4e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dell\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0_0a3a08b901e2ee9d2b4ff1bed59ca51d0665cee4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\commons-lang3-3.4_c26a25b31359ce59d34d6e7ede78daacfb80e636.jar" />
+    </item>
+    <item
+        jar="E:\Git\MarketOiShopperTracking\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0_e1cafd0371b657edd435cd043fde8c875ac006b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\Git\MarketOiShopperTracking\app\build\intermediates\pre-dexed\debug\gson-2.7_dc630040e63120647b5f5c7805d5d2f6a1a7b436.jar" />
+    </item>
+
+</items>
